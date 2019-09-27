@@ -1,0 +1,23 @@
+{
+  "presets": ["@babel/react"],
+  "plugins": [
+    [
+      "@babel/plugin-transform-template-literals",
+      {
+        "loose": true
+      }
+    ],
+    "@babel/plugin-transform-arrow-functions",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-spread",
+    "@babel/plugin-transform-parameters",
+    "@babel/plugin-proposal-async-generator-functions",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": true
+      }
+    ]
+  ]
+}
